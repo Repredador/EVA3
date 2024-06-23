@@ -1,0 +1,209 @@
+
+body {
+    background-color:#DCDEDD;
+}
+
+.menu {
+    width: 100%;
+    background-color: #212121 ;
+    padding: 20px;
+    color:#B3A914;
+    text-align: left;
+    left: 0;
+    top: 0;
+    position:fixed;
+    font-family: "Arial", sans-serif;
+    cursor: pointer;
+    z-index: 1000;
+}
+        
+
+.menu :hover{
+    background-color: #B3A914;
+    color: black;
+    border-radius: 8px;
+}
+        
+.menu span {
+    color: #B3A914;           
+    padding: 20px;                 /*generar un espacio entre botones en el menu, al igual que asegurar un paddin correcto del background*/
+    display: inline-block; 
+}
+        
+.destinos {
+    display: flex;
+    padding-top:10% ;
+    padding-left: 18%;
+}
+
+.destinos div {
+    margin-right: 30px;            /* hacer espacio entre las imagenes para darle estilo y no queden "una sobre la otra" */
+}
+
+.destinos img {
+    height: 200px;
+    width: 400px;
+}
+
+.destinosdos {
+    display: flex;
+    padding-top:2% ;
+    padding-left: 18%;
+    padding-bottom: 10% ;
+}
+
+.destinosdos div {
+    margin-right: 30px;
+}
+
+.destinosdos img {
+    height: 200px;
+    width: 400px; 
+}
+
+.tituloimagenxd{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position:absolute;
+    width: 400px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 100px;
+    font-family: "Arial", serif;
+
+}
+        
+.contactanos {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 30% ;
+}
+
+.botonesdearriba {
+    background-color: #B3A914;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+        
+
+.menu {
+    width: 100%;
+    background-color: #212121 ;
+    padding: 10px;
+    color:#B3A914;
+    text-align: left;
+    left: 0;
+    top: 0;
+    position:fixed;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu span {
+    color: #B3A914;
+    padding: 20px;
+    display: inline-block;
+}
+
+.contenedorform {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #B3A914 ;
+    color:#212121;                     
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flow-root;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form button {
+    padding: 10px 20px;
+    background-color:#757575;
+    color: #B3A914;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #212121;
+    color: #B3A914;
+}
+
+.listaqueestalista {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #B3A914;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 300px; /* Altura máxima de la lista */
+}
+
+.listaqueestalista h2 {
+    color:#212121;
+    margin-bottom: 10px;
+}
+
+.listaqueestalista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listaqueestalista li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.listaqueestalista li button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color:#757575;
+    color: #B3A914;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.listaqueestalista li button:hover {
+    background-color: #212121;
+    color: #B3A914;
+}
+
+footer {
+    background-color: #757575;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 93px;
+}
+
+.imagenparalospies img {
+    height: 80px;
+    width: 100px;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #B3A914;
+    color:#212121;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    line-height: 1.6;
+}
